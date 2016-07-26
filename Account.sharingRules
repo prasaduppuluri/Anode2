@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccountSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>Area_01_CS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_01_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A01</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 1,Zone 2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 01 Construction Solutions</description>
+        <name>Area 01 CS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_01_FS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_01_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A01</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 1,Zone 2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 01 Field Sales</description>
+        <name>Area 01 FS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_02_CS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_02_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A02</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 02 Construction Solutions</description>
+        <name>Area 02 CS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_02_FS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_02_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A02</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 02 Field Sales</description>
+        <name>Area 02 FS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_03_CS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_03_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A03</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 03 Construction Solutions</description>
+        <name>Area 03 CS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_03_FS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_03_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A03</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 03 Field Sales</description>
+        <name>Area 03 FS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_04_CS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_04_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A04</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 3,Zone 4,Zone 7</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 04 Construction Solutions</description>
+        <name>Area 04 CS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_04_FS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_04_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A04</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 3,Zone 4,Zone 7</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 04 Field Sales</description>
+        <name>Area 04 FS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_05_CS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_05_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A05</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 3</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 05 Construction Solutions</description>
+        <name>Area 05 CS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_05_FS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_05_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A05</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 3</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 05 Field Sales</description>
+        <name>Area 05 FS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_06_CS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_06_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A06</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 4,Zone 5</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 06 Construction Solutions</description>
+        <name>Area 06 CS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_06_FS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_06_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A06</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 4,Zone 5</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 06 Field Sales</description>
+        <name>Area 06 FS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_07_CS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_07_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A07</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 4,Zone 5,Zone 6</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 07 Construction Solutions</description>
+        <name>Area 07 CS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_07_FS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_07_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A07</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 4,Zone 5,Zone 6</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 07 Field Sales</description>
+        <name>Area 07 FS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_08_CS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_08_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A08</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 9</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 08 Construction Solutions</description>
+        <name>Area 08 CS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_08_FS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_08_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A08</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 9</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 08 Field Sales</description>
+        <name>Area 08 FS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_09_CS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_09_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A09</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 8</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 09 Construction Solutions</description>
+        <name>Area 09 CS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_09_FS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_09_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A09</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 8</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 09 Field Sales</description>
+        <name>Area 09 FS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_10_CS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_10_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A10</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 7,Zone 8</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 10 Construction Solutions</description>
+        <name>Area 10 CS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Area_10_FS</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_10_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A10</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 7,Zone 8</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Area 10 Field Sales</description>
+        <name>Area 10 FS</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>CRR_Access_to_CS_Accounts</fullName>
+        <sharedTo>
+            <roleAndSubordinates>CE</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Construction Solutions Prospect,Construction Solutions Customer,Construction Solutions Former Customer</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Read</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>This sharing rules give CRR access to all Construction Solution Accounts and Prospects.</description>
+        <name>CRR Access to CS Accounts</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>CRR_Access_to_FS_Accounts</fullName>
+        <sharedTo>
+            <roleAndSubordinates>CE</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Field Sales Prospect,Field Sales MyResource Customer,Field Sales Customer,Field Sales Former Customer</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Read</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>This sharing rules give CRR access to all Field Sales Accounts and Prospects.</description>
+        <name>CRR Access to FS Accounts</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>CRR_National_Accounts_Sharing_Rule</fullName>
+        <sharedTo>
+            <roleAndSubordinates>CE</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>National_Account__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Read</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>CRR National Accounts Sharing Rule</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>NAAcctsManagerBillingA</fullName>
+        <sharedTo>
+            <role>NAAcctsManagerBilling</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>NA Customer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value>005E0000006UZhj</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>NA Accts - Manager - BillingA</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>NA_Account_Reporting</fullName>
+        <sharedTo>
+            <role>NA_Accts_Reporting</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>NA Prospect,NA Customer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value>005E0000006UZhj</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>NA Account - Reporting</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Read_and_Write_on_Accounts_for_FS_Sales_Admins</fullName>
+        <sharedTo>
+            <role>Field_Sales</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Read and Write on Accounts for FS Sales Admins</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>SPW_Zone_1</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Zone_1</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A01,A02</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>SPW Zone 1 with related Area(s)</description>
+        <name>SPW Zone 1</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>SPW_Zone_2</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Zone_2</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A04,A05</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>SPW Zone 2 with related Area(s)</description>
+        <name>SPW Zone 2</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>SPW_Zone_3</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Zone_3</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A04,A05</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 3</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>SPW Zone 3 with related Area(s)</description>
+        <name>SPW Zone 3</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>SPW_Zone_4</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Zone_4</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A04,A06,A07</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 4</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>SPW Zone 4 with related Area(s)</description>
+        <name>SPW Zone 4</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>SPW_Zone_5</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Zone_5</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A06,A07</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 5</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>SPW Zone 5 with related Area(s)</description>
+        <name>SPW Zone 5</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>SPW_Zone_6</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Zone_6</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A07</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 6</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>SPW Zone 6 with related Area(s)</description>
+        <name>SPW Zone 6</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>SPW_Zone_7</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Zone_7</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A04,A10</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 7</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>SPW Zone 7 with related Area(s)</description>
+        <name>SPW Zone 7</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>SPW_Zone_8</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Zone_8</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>FS_Area__c</field>
+            <operation>contains</operation>
+            <value>A09,A10</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 8</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>SPW Zone 8 with related Area(s)</description>
+        <name>SPW Zone 8</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>SPW_Zone_9</fullName>
+        <sharedTo>
+            <roleAndSubordinates>SPW_Zone_9_Director</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Muni_Area__c</field>
+            <operation>contains</operation>
+            <value>A08</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SPW_Zone__c</field>
+            <operation>contains</operation>
+            <value>Zone 9</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Muni Customer,Muni Prospect</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>SPW Zone 9 with related Area(s)</description>
+        <name>SPW Zone 9</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <ownerRules>
+        <fullName>Account_Area_01_CS_ASD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_01_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_01_CS_ASD</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Area 01 CS ASD</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_Area_02_CS_ASD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_02_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_02_CS_ASD</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Area 02 CS ASD</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_Area_03_CS_ASD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_03_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_03_CS_ASD</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Area 03 CS ASD</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_Area_04_CS_ASD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_04_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_04_CS_ASD</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Area 04 CS ASD</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_Area_05_CS_ASD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_05_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_05_CS_ASD</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Area 05 CS ASD</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_Area_06_CS_ASD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_06_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_06_CS_ASD</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Area 06 CS ASD</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_Area_07_CS_ASD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_07_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_07_CS_ASD</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Area 07 CS ASD</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_Area_08_CS_ASD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_08_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_08_CS_ASD</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Area 08 CS ASD</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_Area_09_CS_ASD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_09_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_09_CS_ASD</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Area 09 CS ASD</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_Area_10_CS_ASD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_10_CS_ASD</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_10_CS_ASD</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Area 10 CS ASD</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_Data_shared_with_NA_MFG_Market_Development</fullName>
+        <sharedTo>
+            <role>NA_Mfg_Market_Development</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Na_accts_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account Data shared with NA-MFG Market Development</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Account_sharing_with_Construction_Solutions</fullName>
+        <sharedTo>
+            <role>Field_Sales</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>ConstructionSolution_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Account sharing with Construction Solutions</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>All_SPW_Accounts</fullName>
+        <sharedTo>
+            <group>SPW_Users_Dir_VP_BA</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>SPW_Users_Dir_VP_BA</group>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>All SPW Accounts</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>CRR_CE_Field_Sales_Sharing_Rule</fullName>
+        <sharedTo>
+            <roleAndSubordinates>CE</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>CE</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Read</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>CRR CE Field Sales Sharing Rule</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Data_Shared_with_SPW_Business_Admin_Group</fullName>
+        <sharedTo>
+            <group>SPW_Business_Admin_Grp</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>SPW_ALL_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Data Shared with SPW Business Admin Group</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Data_shared_with_Field_Sales</fullName>
+        <sharedTo>
+            <role>Field_Sales</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>FS_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Data shared with Field Sales</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_A01_Area</fullName>
+        <sharedTo>
+            <group>FS_A01_Area</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FS_A01_Area</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS A01 Area</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_A03_Area</fullName>
+        <sharedTo>
+            <group>FS_A03_Area</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FS_A03_Area</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS A03 Area</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_A07_Area</fullName>
+        <sharedTo>
+            <group>FS_A07_Area</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FS_A07_Area</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS A07 Area</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_A08_Area</fullName>
+        <sharedTo>
+            <group>FS_A08_Area</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FS_A08_Area</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS A08 Area</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_A17_Area</fullName>
+        <sharedTo>
+            <group>FS_A17_Area</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FS_A17_Area</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS A17 Area</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_A19_Area</fullName>
+        <sharedTo>
+            <group>FS_A19_Area</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FS_A19_Area</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS A19 Area</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_Area01_ACOC_Data_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_01_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_01_FS_President</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS Area01 ACOC Data Sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_Area02_ACOC_Data_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_02_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_02_FS_President</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS Area02 ACOC Data Sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_Area03_ACOC_Data_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_03_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_03_FS_President</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS Area03 ACOC Data Sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_Area04_ACOC_Data_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_04_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_04_FS_President</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS Area04 ACOC Data Sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_Area05_ACOC_Data_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_05_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_05_FS_President</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS Area05 ACOC Data Sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_Area06_ACOC_Data_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_06_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_06_FS_President</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS Area06 ACOC Data Sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_Area07_ACOC_Data_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_07_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_07_FS_President</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS Area07 ACOC Data Sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_Area08_ACOC_Data_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_08_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_08_FS_President</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS Area08 ACOC Data Sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_Area09_ACOC_Data_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_09_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_09_FS_President</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS Area09 ACOC Data Sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>FS_Area10_ACOC_Data_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Area_10_FS_President</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Area_10_FS_President</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>FS Area10 ACOC Data Sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Field_Sales</fullName>
+        <sharedTo>
+            <group>FS_Muni_SPW_Ryan_Jensen_Lead_Visibility</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Field_Sales</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <description>Ryan Jensen visibility for Acounts</description>
+        <name>Field Sales</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Greg_hicks_and_Stefanie_Fairless_data_shared_with_Cory_Evans</fullName>
+        <sharedTo>
+            <group>Cory_Evans</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Hicks_and_Fairless_data_shared_with_cory</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Giving Read/Write Access to Cory Evans for Greg Hicks and Stefanie Fairless Accounts, Contacts &amp; opportunities data</description>
+        <name>Greg hicks and Stefanie Fairless data shared with Cory Evans</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>MESE_Accounts</fullName>
+        <sharedTo>
+            <group>MESE_User</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Na_accts_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>MESE Accounts</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>MESE_User_Data_sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>MESE_VP</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>MESE_VP</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>MESE User Data sharing</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Muni_Account_Sharing_Rules_Ryan_Jensen</fullName>
+        <sharedTo>
+            <group>FS_Muni_SPW_Ryan_Jensen_Lead_Visibility</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Muni_CRM_Corp</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <description>Ryan Jensen Account visibility</description>
+        <name>Muni_Account_Sharing_Rules_Ryan_Jensen</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>NAAcctsDirectorCustomerServiceA</fullName>
+        <sharedTo>
+            <role>NAAcctsDirectorCustomerService</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Na_accts_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>NA Accts - Director - Customer ServiceA</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>NAAcctsManagerCustomerServiceA</fullName>
+        <sharedTo>
+            <role>NAAcctsManagerCustomerService</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Na_accts_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>NA Accts - Manager - Customer ServiceA</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>NAAcctsNAPAA</fullName>
+        <sharedTo>
+            <role>NAAcctsNAPA</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Na_accts_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>NA Accts - NAPAA</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>NAAcctsSupervisorCustomerServiceA</fullName>
+        <sharedTo>
+            <role>NAAcctsSupervisorCustomerService</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Na_accts_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>NA Accts - Supervisor - Customer ServiceA</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>NA_Accounts_shared_with_SPW_Accounts</fullName>
+        <sharedTo>
+            <group>SPW_ALL_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Na_accts_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>NA Accounts shared with SPW Accounts</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>NA_Data_shared_with_Michael_Sarkis</fullName>
+        <sharedTo>
+            <group>SPW_MUNI_Access_Michael_Sarkis</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Na_accts_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>NA Data shared with Michael Sarkis</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>NA_Group</fullName>
+        <sharedTo>
+            <group>Na_accts_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Na_accts_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>NA Group</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>SPW_Account_Sharing_Rules_Ryan_Jensen</fullName>
+        <sharedTo>
+            <group>FS_Muni_SPW_Ryan_Jensen_Lead_Visibility</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>View_All</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <description>Ryan SPW Sharing rule for Account visibility</description>
+        <name>SPW_Account_Sharing_Rules_Ryan_Jensen</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>SPW_Data_Shared_With_MESE</fullName>
+        <sharedTo>
+            <roleAndSubordinates>MESE_VP</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>View_All</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>SPW Data Shared With MESE</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>SPW_Data_shared_with_Mike_Sarkis</fullName>
+        <sharedTo>
+            <group>SPW_MUNI_Access_Michael_Sarkis</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>SPW_ALL_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <description>Originally written to share data with Mike Sarkis</description>
+        <name>SPW Data shared with Mike Sarkis</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>SPW_data_shared_with_NA_MFG_Market_Development_role</fullName>
+        <sharedTo>
+            <role>NA_Mfg_Market_Development</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>SPW_ALL_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>SPW data shared with NA MFG Market Development role</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>SPW_shared_with_NA_SPW_Users</fullName>
+        <sharedTo>
+            <roleAndSubordinates>NAAcctsSpecialWasteSalesUsers</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <group>SPW_ALL_Users</group>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>SPW shared with NA SPW Users</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </ownerRules>
+</AccountSharingRules>
